@@ -1,11 +1,10 @@
-## Cross Platform OS Information Package ![license](https://img.shields.io/github/license/zekiahmetbayar/go-distroyer?style=for-the-badge)
+## go-distroyer | Cross Platform OS Information Package ![license](https://img.shields.io/github/license/zekiahmetbayar/go-distroyer?style=for-the-badge)
 
 
-![downloads](https://img.shields.io/github/downloads/zekiahmetbayar/go-distroyer/total?style=for-the-badge)
-
-![activity](https://img.shields.io/github/commit-activity/m/zekiahmetbayar/go-distroyer?style=for-the-badge)
-
-
+<p float="left">
+  <img src="https://img.shields.io/github/downloads/zekiahmetbayar/go-distroyer/total?style=for-the-badge" width="300" />
+  <img src="https://img.shields.io/github/commit-activity/m/zekiahmetbayar/go-distroyer?style=for-the-badge" width="350" /> 
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/zekiahmetbayar/zekiahmetbayar.github.io/master/assets/distroyer.png" />
