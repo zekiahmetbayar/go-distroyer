@@ -47,7 +47,7 @@ func main() {
     // ex. debian, fedora, rhel...
     like, err := distroyer.Like()
     if err != nil {
-        log.Fatalf("error when getting platform: %s", err.Error())
+        log.Fatalf("error when getting platform like: %s", err.Error())
     }
     fmt.Printf("Like: %s\n", like)
 
@@ -61,7 +61,7 @@ func main() {
 
     // Returns the platform of the client's distribution
     // ex. ubuntu, centos, ol...
-    platform, err := distroyer.ID()
+    platform, err := distroyer.Platform()
     if err != nil {
         log.Fatalf("error when getting platform: %s", err.Error())
     }

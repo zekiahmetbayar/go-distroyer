@@ -1,5 +1,5 @@
 package distroyer
 
-func ID() (string, error) {
+func Platform() (string, error) {
 	return "windows", nil
 }

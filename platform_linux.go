@@ -5,7 +5,7 @@ import (
 	"regexp"
 )
 
-func ID() (string, error) {
+func Platform() (string, error) {
 	var re = regexp.MustCompile(`(?m)^ID="*(.*?)"*$`)
 	out, err := exec.Command("bash", "-c", "cat /etc/os-release").CombinedOutput()
 	if err != nil {
