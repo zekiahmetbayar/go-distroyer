@@ -1,4 +1,4 @@
-package release
+package distroyer
 
 func PrettyName() (string, error) {
 	name, err := Codename()

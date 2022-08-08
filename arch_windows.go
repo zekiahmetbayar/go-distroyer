@@ -1,4 +1,4 @@
-package release
+package distroyer
 
 import (
 	"strconv"
