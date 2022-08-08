@@ -69,7 +69,7 @@ func main() {
 
     // Returns the version of the client's distribution
     // ex. 22.04, 8.6, 6.3...
-    version, err := distroyer.ID()
+    version, err := distroyer.Version()
     if err != nil {
         log.Fatalf("error when getting version: %s", err.Error())
     }
