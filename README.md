@@ -47,7 +47,7 @@ func main() {
     if err != nil {
         log.Fatalf("error when getting pretty name: %s", err.Error())
     }
-    fmt.Printf("Pretty Name: %s\n", pretty )
+    fmt.Printf("Pretty Name: %s\n", pretty)
 
     // Returns the platform of the client's distribution
     // ex. ubuntu, centos, ol...
@@ -72,4 +72,8 @@ func main() {
 
 OS/Distro | Arch | Version | Codename | Like | P.Name 
 --- | --- | --- | --- |--- |--- 
-Ubuntu 22.04 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: 
+Ubuntu 18 / 20 / 22 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: 
+Oracle Server 8 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: 
+Centos 7 / 8 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: 
+Pardus 19 / 21 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: 
+Windows 7 / 10 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: 
