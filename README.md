@@ -1,5 +1,7 @@
 ## Cross Platform OS Information Package
 
+![go-distroyer](https://raw.githubusercontent.com/zekiahmetbayar/zekiahmetbayar.github.io/master/assets/distroyer.png)
+
 The go-distroyer package provides multi-platform support, making it easy to perform distribution checks in code.
 
 ### Installation
